@@ -1,0 +1,634 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Background color for the entire site */
+body {
+    background-color: #1E1E1E;
+}
+
+/* Header styling */
+header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.7rem;
+    margin: 0;
+    color: #FFD700; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 1em;
+    background-color: #1e1e1e; 
+    position: fixed; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    left: 2; 
+    width: 100%; 
+  }
+  
+/* Style the navigation menu */
+nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    margin-right: 45px;
+  }
+  
+  nav li {
+    margin-left: 2em; 
+  }
+  
+  nav a {
+    text-decoration: none; 
+    color: #FFD700; 
+    font-weight: bold;
+    font-size: 1em;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+/* Main content section */
+#top-image {
+    margin-top: 80px; 
+  }
+  
+  #top-image img {
+    width: 100vw; 
+    height: auto; 
+    display: block; 
+  }
+
+/* Centered YouTube Video Section */
+#featured-video {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 2em 0; 
+  }
+
+#featured-video iframe {
+    width: 100%; 
+    max-width: 900px; 
+    height: 370px; 
+    border: 6px double #FFD700; /* Double border */
+    border-radius: 12px; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  }  
+
+/* Intro section styling */
+#intro {
+    font-family: 'Exo 2', sans-serif; 
+    text-align: center;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #2e2e2e; 
+    border-radius: 15px; 
+    color: #fff; 
+    max-width: 950px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7); 
+    margin-top: 150px;
+    border: 3px solid #FFD700;
+    box-shadow: 0 0 25px #FFD700; /* Gold glow */
+  }
+  
+  #intro h2 {
+    font-family: 'Exo 2', sans-serif; 
+    margin-top: 30px; 
+    font-size: 2.5em; 
+    margin-bottom: 0.5em;
+    color: #FFD700; 
+  }
+  
+  #intro p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.3em; 
+    line-height: 1.6; 
+    margin-bottom: 30px;
+  }
+
+/* Styling for the Kuiil section */
+#character-10 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Title styling (10. Kuiil) */
+  #character-10 h2 {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 2em; 
+    color: #FFD700;
+    margin: 0 0 1em 0; 
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: left; 
+  }
+  
+  /* Center the GIF */
+  #character-10 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-10 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-10 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the Jawa section */
+#character-9 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Title styling (9. Jawa) */
+  #character-9 h3 {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 2em; 
+    color: #FFD700;
+    margin: 0 0 1em 0; 
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: left; 
+  }
+  
+  /* Center the GIF */
+  #character-9 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-9 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-9 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+ 
+/* Styling for the R5-D4 section */
+#character-8 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Title styling (8. R5-D4) */
+  #character-8 h4 {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 2em; 
+    color: #FFD700;
+    margin: 0 0 1em 0; 
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: left; 
+  }
+  
+  /* Center the GIF */
+  #character-8 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-8 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-8 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the Boba Fett section */
+#character-7 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+
+  /* Title styling (7. Boba Fett) */
+ #character-7 h5 {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 2em; 
+    color: #FFD700;
+    margin: 0 0 1em 0; 
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: left; 
+  }
+  
+  /* Center the GIF */
+  #character-7 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-7 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-7 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the Cobb Vanth (The Marshal) section */
+#character-6 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+
+  /* Title styling (6. Cobb Vanth (The Marshal)) */
+ #character-6 h6 {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 2em; 
+    color: #FFD700;
+    margin: 0 0 1em 0; 
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: left; 
+  }
+  
+  /* Center the GIF */
+  #character-6 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-6 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-6 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the IG-11 section */
+#character-5 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Center the GIF */
+  #character-5 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-5 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-5 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    text-align: left;
+  }
+
+/* Styling for the Bo-Katan Kryze section */
+#character-4 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Center the GIF */
+  #character-4 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-4 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-4 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the Peli Motto section */
+#character-3 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Center the GIF */
+  #character-3 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-3 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-3 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the Mando section */
+#character-2 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Center the GIF */
+  #character-2 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-2 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-2 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for the Grogu section */
+#character-1 {
+    margin: 4em auto; 
+    padding: 3em;
+    background-color: #2e2e2e; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    max-width: 800px;
+    color: #fff; 
+    margin-top: 100px;
+  }
+  
+  /* Center the GIF */
+  #character-1 .gif-container {
+    display: flex; 
+    justify-content: center; 
+    margin: 1em 0; 
+  }
+  
+  #character-1 img {
+    max-width: 600px; 
+    height: 400px; 
+    border: 3px solid #FFD700;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+  }
+  
+  /* Paragraph styling */
+  #character-1 p {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 1.2em; 
+    line-height: 1.6;
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    text-align: left;
+  }
+
+/* Styling for custom character headings */
+.character-heading {
+    font-family: 'Exo 2', sans-serif; 
+    font-size: 2em; 
+    font-weight: bold;
+    color: #FFD700;
+    margin: 0 0 1em 0; 
+    margin-top: 2px;
+    margin-bottom: 40px;
+    text-align: left; 
+  }
+
+/* Video collection styling */
+#video-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+    margin-top: 3em;
+  }
+  
+  #video-collection video {
+    margin-top: 3em;
+    width: 100%;
+    height: auto;
+    border: 5px double #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  }
+
+/* Style for each video item */
+.video-item {
+    margin-bottom: 1.2em; 
+    text-align: center; 
+  }
+  
+  /* Styling for video captions */
+  .video-item p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.4em;
+    color: #FFD700;
+    text-shadow: 0 0 8px #FFD700, 0 0 16px #FFA500;
+    margin-top: 1.3em; 
+    text-align: center;
+    line-height: 1.4; 
+  }
+
+/* General styles for the side text */
+.side-text {
+    position: fixed; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 1em; 
+    color: #FFD700; 
+    writing-mode: vertical-rl;
+    text-orientation: upright; 
+    letter-spacing: 2px; 
+    z-index: 1000; 
+    user-select: none;
+  }
+  
+  /* Left-side text */
+  .side-text.left {
+    left: 80px; 
+  }
+  
+  /* Right-side text */
+  .side-text.right {
+    right: 80px;
+  }
+
+/* Add simple side banners */
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 10px; 
+  background: linear-gradient(to bottom, #FFD700, #FF4500);
+  z-index: -1; 
+}
+
+/* Left-side banner */
+body::before {
+  left: 0;
+}
+
+/* Right-side banner */
+body::after {
+  right: 0;
+}
